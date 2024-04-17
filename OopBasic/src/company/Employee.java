@@ -7,7 +7,7 @@ public abstract class Employee implements Workable {
     private final String position;
     private final int employeeId;
 
-    // コンストラクター
+    // コンストラクター      
     public Employee(String name, Department department, String position, int employeeId) {
         this.name = name;
         this.department = department;
